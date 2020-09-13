@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OgmComputer</title>
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--FONT ROBOTO-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--FONT OVO-->
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--STYLES CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top navbar-expand-lg" id="navegation">
+        <a href="#navegation">
+            <img src="logo.svg" id="nav-brand">
+        </a>
+        <a id="collapse-btn">
+            <i class="navbar-toggler-icon d-block d-lg-none" data-toggle="collapse" data-target="#collapse"
+                id="collapse-1"></i>
+        </a>
+        <div class="navbar-collapse collapse" id="collapse">
+            <ul class="navbar-nav mr-auto" id="menu-list">
+                <li class="nav-item" id="nav-item"><a href="#" class="nav-link">Productos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+                <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle"
+                        data-toggle="dropdown">Servicios</a>
+                    <div class="dropdown-menu" id="dropdown-1">
+                        <a href="#" class="dropdown-item">Mantenimiento de sofwares</a>
+                        <a href="#" class="dropdown-item">Administracion de escuelas</a>
+                        <a href="#" class="dropdown-item">Mantenimiento de nominas</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+            </ul>
+            <form class="form-inline my-2">
+                <input type="text" class="form-control mr-sm-1" placeholder="Buscar" id="buscar">
+                <button class="btn btn-outline-light" id="buscar-btn">Buscar</button>
+            </form>
+        </div>
+    </nav>
+    <!------------------------------Fin navegation-------------------------------------------->
+    <div class="container">
+        <div class="row" style="margin-top: 8em;">
+            <div class="col-12 m-auto">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" id="item-1">
+                            <img src="slider/img-1.jpg" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3 class="font-weight-bolder text-light">Lorem ipsum dolor sit amet. </h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slider/img-2.jpg" class="d-block w-100">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slider/img-3.jpg" class="d-block w-100">
+                        </div>
+                    </div>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------Fin Carousel--------------------------------------->
+
+
+        <div class="row" style="margin-top: 7em;">
+            <div class="col-12">
+            </div>
+            <div class="col">
+                <div class="main">
+                    <div class="section-item-1">
+                        <img src="service/img-1.svg" class="mr-2" id="img-section-1">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing</h4>
+                        <p id="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro ducimus,
+                            deleniti natus
+                            ullam officia maxime nihil eos voluptas dolor nisi.
+                        </p>
+                        <button class=" btn btn-outline-primary mr-4 mb-5" style="border-radius: 50px;">Read
+                            more</button>
+                    </div>
+                    <div class="section-item-2">
+                        <img src="service/img-2.svg" id="img-section-2">
+                        <h4>Lorem ipsum dolor sit </h4>
+                        <p id="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro ducimus,
+                            deleniti natus
+                            ullam officia maxime nihil eos voluptas dolor nisi.
+                        </p>
+                        <button class="mb-4 text-center mt-2 btn btn-outline-primary mr-4 "
+                            style="border-radius: 50px;">Read more</button>
+                    </div>
+                    <div class="section-item-3">
+                        <img src="service/img-3.svg" class="mr-2" id="img-section-3">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <p id="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro ducimus,
+                            deleniti natus
+                            ullam officia maxime nihil eos voluptas dolor nisi.
+                        </p>
+                        <button class=" btn btn-outline-primary mr-4  " style="border-radius: 50px;">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------Fin main------------------------------------------------------->
+
+        <div class="row">
+            <div class="col-12">
+                <h1 id="main-section-tittle">Distribuidores de soporte</h1>
+                <div class="col-12 container-fluid">
+                    <p id="main-section-p" class="w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                        consequuntur a
+                        quas, eligendi
+                        dolorum saepe fugit officiis pariatur inventore nihil laborum voluptate nisi laudantium.
+                        Corporis labore
+                        delectus unde iusto aspernatur:</p>
+                </div>
+                <div class="col-12 container-fluid">
+                    <ul id="main-section-list" class="w-100">
+                        <li>
+                            NETMOON SOLUTION
+                        </li>
+                        <li>
+                            LancerGroup
+                        </li>
+                        <li>
+                            Darc Tech srl
+                        </li>
+                        <li>
+                            CARVAJATECH
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <button class=" btn btn-outline-primary mr-5 float-right " style="border-radius: 50px; ">Read
+                        more</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-------------------------------------------------Fin main-section------------------------------------------------------->
+        <div class="row">
+            <div class="col">
+                <aside id="main-aside">
+                    <h1 id="aside-tittle">News</h1>
+                    <img src="productos/img-3.jpg" class="float-right " id="aside-img">
+                    <p id="aside-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas exercitationem
+                        aspernatur sed molestiae nesciunt et, placeat numquam consectetur, minima in excepturi
+                        cupiditate assumenda aliquam totam laboriosam unde aut ad asperiores. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Rerum dicta consectetur praesentium sequi, eos facere quas
+                        ducimus, maxime laborum doloribus iste aperiam? Enim sed culpa nostrum laboriosam nemo
+                        doloremque veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </aside>
+            </div>
+        </div>
+    </div>
+            <footer class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <img src="footer.svg" id="footer-img">
+                        <h4 id="footer-tittle">Copyright 2020 OgmComputer. All rights reserved</h4>
+                    </div>
+                    <div class="col-12">
+                        <ul id="footer-list">
+                            <li id="footer-item">
+                                <a href="#" id="footer-link">Productos</a>
+                            </li>
+                            <li id="footer-item">
+                                <a href="#" id="footer-link">Nosotros</a>
+                            </li>
+                            <li id="footer-item">
+                                <a href="#" id="footer-link">Servicios</a>
+                            </li>
+                            <li id="footer-item">
+                                <a href="#" id="footer-link">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="links">
+                            <i class="fab fa-facebook-f" id="fb-link"></i>
+                        </div>
+                        <div class="links">
+                            <i class="fab fa-twitter" id="tw-link"></i>
+                        </div>
+                        <div class="links">
+                            <i class="fab fa-instagram" id="ig-link"></i>
+                        </div>
+                        <div class="links">
+                            <i class="fab fa-youtube" id="yt-link"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+#navegation {
+  font-size: 1.8em;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); }
+
+#nav-brand {
+  width: 70px;
+  margin-right: 40px;
+  margin-left: 10px; }
+
+#menu-list li:hover {
+  border-bottom: 2px solid #ffffff; }
+
+#buscar-btn {
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  color: white;
+  font-family: "Ovo", serif; }
+  #buscar-btn:hover {
+    background: #7ed6ff; }
+
+#collapse-1 {
+  color: rgba(24, 3, 13, 0.548); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 95%;
+  margin: auto; }
+
+body {
+  min-height: 100vh;
+  font-size: 10px;
+  font-family: "Ovo", serif; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 575px) {
+  #p-1,
+  #p-2,
+  #p-3 {
+    line-height: 1.9em;
+    color: rgba(12, 12, 12, 0.473);
+    font-size: 1.4em;
+    font-family: "Roboto", sans-serif; } }
+@media screen and (max-width: 979px) {
+  #buscar-btn,
+  #buscar {
+    width: 100%; }
+
+  #buscar {
+    margin-bottom: 3px; } }
+#main-section-tittle {
+  font-family: "Roboto", sans-serif;
+  color: #6dc9ff;
+  font-size: 5em;
+  text-align: center; }
+
+#main {
+  list-style: none; }
+
+h4 {
+  font-weight: bolder;
+  color: #110070;
+  font-size: 2em;
+  position: relative;
+  top: 0.5em;
+  margin-bottom: 1.4em; }
+
+#img-section-1,
+#img-section-2,
+#img-section-3 {
+  width: 40px;
+  position: relative;
+  float: left;
+  top: 0.6em;
+  margin-right: 7px;
+  /*-------------------------------------Fin main----------------------------------------------- */ }
+
+#main-section-tittle {
+  color: #110070;
+  font-weight: bolder;
+  text-align: left;
+  font-family: "Ovo", serif;
+  font-size: 3.2em;
+  border-bottom: 0.4px solid rgba(155, 155, 155, 0.438);
+  padding-bottom: 0.4em;
+  margin-top: 2em;
+  text-align: left; }
+
+#main-section-p {
+  line-height: 1.9em;
+  color: #110070;
+  font-weight: bolder;
+  font-size: 1.4em;
+  width: 100%;
+  font-family: "Ovo", serif;
+  margin-top: 1.6em; }
+
+#main-section-list {
+  line-height: 1.9em;
+  color: rgba(12, 12, 12, 0.473);
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  /*-------------------------------------Fin main-section---------------------------------------------- */ }
+
+#aside-tittle {
+  color: #110070;
+  font-weight: bolder;
+  text-align: left;
+  font-family: "Ovo", serif;
+  font-size: 5.6em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
+  border-bottom: 0.4px solid rgba(155, 155, 155, 0.438); }
+
+#aside-p {
+  line-height: 1.9em;
+  color: rgba(12, 12, 12, 0.473);
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  width: 100%; }
+
+#aside-img {
+  width: 230px;
+  /*-------------------------------------Fin aside---------------------------------------------- */ }
+
+footer {
+  background: rgba(0, 0, 0, 0.83);
+  margin-top: 2em; }
+
+#footer-img {
+  width: 150px;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center; }
+
+#footer-tittle {
+  color: #ffebeb;
+  font-weight: lighter;
+  margin-top: 1em; }
+
+#footer-list {
+  line-height: 1.9em;
+  font-size: 1.5em;
+  list-style: none;
+  display: flex;
+  justify-content: end; }
+  #footer-list a {
+    color: rgba(255, 255, 255, 0.473);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    padding: 0.4em;
+    position: relative; }
+    #footer-list a:hover {
+      opacity: 0.4; }
+
+/*# sourceMappingURL=main.css.map */
